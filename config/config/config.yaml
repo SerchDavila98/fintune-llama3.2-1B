@@ -1,0 +1,16 @@
+api:
+  aimlapi_key: "YOUR_AIMLAPI_KEY"
+  aimlapi_base_url: "https://api.aimlapi.com"
+
+model:
+  base_model: "meta-llama/Llama-3.2-1B-Instruct"
+  finetuned_model_dir: "./models/finetuned_models/"
+
+training:
+  epochs: 3
+  batch_size: 16
+  learning_rate: 2e-5
+
+logging:
+  level: "INFO"
+  file: "logs/pipeline.log"
