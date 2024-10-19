@@ -128,8 +128,6 @@
 
 This project is licensed under the [MIT License](LICENSE).
 
-- **LinkedIn**: [Your Name](https://www.linkedin.com/in/yourprofile)
-
 ---
 
 **Disclaimer**: This application utilizes large language models which may have limitations in understanding and generating content. Always review and verify the chatbot's responses for accuracy and appropriateness.
