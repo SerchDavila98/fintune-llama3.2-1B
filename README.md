@@ -8,7 +8,6 @@
 
 - [Features](#features)
 - [How It Works](#how-it-works)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Technical Details](#technical-details)
 - [Benefits](#benefits)
@@ -41,41 +40,6 @@
 4. **Fine-Tune the Model**: Use the generated dataset to fine-tune a LLaMA 3.2 (1B) model, customizing it to your specific needs.
 5. **Deploy Locally**: Once fine-tuned, your chatbot is ready to use offline, ensuring privacy and quick access.
 6. **Interact with Your Chatbot**: Engage with your customized chatbot directly within the app, leveraging on-device processing for optimal performance.
-
----
-
-## Installation
-
-### Prerequisites
-
-- **Flutter SDK**: Ensure you have Flutter installed. [Get Flutter](https://flutter.dev/docs/get-started/install)
-- **API Access**: Obtain necessary API keys for model fine-tuning and dataset generation.
-- **Compatible Device**: A device with sufficient storage and processing capabilities to handle large models.
-
-### Steps
-
-1. **Clone the Repository**
-    ```bash
-    git clone https://github.com/yourusername/LlamaGPT-builder.git
-    cd LlamaGPT-builder
-    ```
-
-2. **Install Dependencies**
-    ```bash
-    flutter pub get
-    ```
-
-3. **Configure API Keys**
-    - Create a `.env` file in the root directory.
-    - Add your API keys:
-      ```
-      API_KEY=your_api_key_here
-      ```
-
-4. **Run the App**
-    ```bash
-    flutter run
-    ```
 
 ---
 
