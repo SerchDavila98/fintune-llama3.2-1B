@@ -1,0 +1,32 @@
+// lib/widgets/chatbot_card.dart
+
+import 'package:flutter/material.dart';
+import '../models/chatbot.dart';
+
+class ChatbotCard extends StatelessWidget {
+  final Chatbot chatbot;
+  final VoidCallback onTap;
+  final VoidCallback onDelete;
+
+  ChatbotCard({
+    required this.chatbot,
+    required this.onTap,
+    required this.onDelete,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      margin: EdgeInsets.all(8.0),
+      child: ListTile(
+        title: Text(chatbot.name),
+        subtitle: Text(chatbot.useCase),
+        trailing: IconButton(
+          icon: Icon(Icons.delete, color: Colors.red),
+          onPressed: onDelete,
+        ),
+        onTap: onTap,
+      ),
+    );
+  }
+}
