@@ -41,6 +41,8 @@
 5. **Deploy Locally**: Once fine-tuned, your chatbot is ready to use offline, ensuring privacy and quick access.
 6. **Interact with Your Chatbot**: Engage with your customized chatbot directly within the app, leveraging on-device processing for optimal performance.
 
+![Architechture](https://iili.io/23ovJmx.png)
+
 ---
 
 ## Usage
