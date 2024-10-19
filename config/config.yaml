@@ -14,3 +14,23 @@ training:
 logging:
   level: "INFO"
   file: "logs/pipeline.log"
+
+finetuning:
+  base_model: "meta-llama/Llama-3.2-1B-Instruct"
+  finetuned_model_dir: "./models/finetuned_models/"
+  epochs: 3
+  batch_size: 16
+  learning_rate: 2e-5
+  save_steps: 500
+  save_total_limit: 2
+  logging_steps: 100
+  evaluation_strategy: "steps"  # options: "no", "steps", "epoch"
+  load_best_model_at_end: true
+  metric_for_best_model: "loss"
+  greater_is_better: false
+  seed: 42
+  
+deployment:
+  max_length: 100
+  num_return_sequences: 1
+  no_repeat_ngram_size: 2
