@@ -1,4 +1,4 @@
-#  Test-to-Model LlamaGPT Builder
+#  Text-to-Model LlamaGPT Builder
 
 **LlamaPT Builder** is a powerful Flutter-based application that empowers users to create customized chatbots tailored to specific use cases. By leveraging the advanced capabilities of LLaMA 3.1 (405B) and LLaMA 3.2 (1B) models, LlamaGPT Builder allows you to generate synthetic datasets, fine-tune models, and deploy local GPT-like chatbots effortlessly. Experience enhanced privacy, speed, and flexibility by managing your chatbots entirely on your device.
 
